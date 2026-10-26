@@ -45,6 +45,13 @@ You only install SpaceEdit by hand once. After that it updates itself:
 - Each update's signature is checked before it's installed. SpaceEdit then restarts, with your tabs and unsaved changes as you left them.
 - To stop the check at launch, turn off **Check for updates at launch** in the settings page's **Updates** section (Ctrl+, or ⌘,).
 
+## Reporting a problem
+
+- **In SpaceEdit** (versions after 1.1.0): choose **Report a Problem…**. It's in the command palette, F1 help, the settings page and the Mac's Help menu. It opens GitHub's bug form in your browser with SpaceEdit's version, your system and the mode filled in. It never adds file names, paths, host names or your text, and you see everything before you send it.
+- **Or open the [bug form](https://github.com/tkimbel/SpaceEdit-releases/issues/new?template=bug-report.yml) yourself.** In 1.1.0, **Check for Updates…** shows your version.
+- You need a free GitHub account, and reports are public, so leave out private text, passwords and keys.
+- **No GitHub account?** SpaceEdit's **Copy Details for a Problem Report** puts the same details on the clipboard. Paste them into an email or a message to the person who gave you SpaceEdit.
+
 ## Checking a download (optional)
 
 `SHA256SUMS.txt` in each release lists each file's SHA-256 checksum. To see a downloaded file's checksum:

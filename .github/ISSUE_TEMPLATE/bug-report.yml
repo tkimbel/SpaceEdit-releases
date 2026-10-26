@@ -1,0 +1,54 @@
+name: Report a problem
+description: Something in SpaceEdit doesn't work as it should.
+title: "Problem: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it. Reports here are **public**, so leave out private text, file names, host names, passwords and keys.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, and what SpaceEdit did. Screenshots help; paste or drag them in.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen again
+      placeholder: |
+        1. Open a Markdown file
+        2. Press Ctrl+E
+        3. …
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+
+  - type: input
+    id: version
+    attributes:
+      label: SpaceEdit version
+      description: SpaceEdit's Report a Problem… fills this in. In 1.1.0, Check for Updates… shows it (or About SpaceEdit on a Mac).
+      placeholder: "1.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: system
+    attributes:
+      label: System
+      placeholder: "Windows 11 24H2 (x64), or macOS 15.1 (Apple silicon)"
+    validations:
+      required: true
+
+  - type: input
+    id: mode
+    attributes:
+      label: Mode
+      description: Text or Markdown, if it matters.

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installing SpaceEdit
+    url: https://github.com/tkimbel/SpaceEdit-releases#readme
+    about: Which file to download, and the Windows and Mac steps.
